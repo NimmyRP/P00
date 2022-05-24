@@ -32,8 +32,7 @@ public class CalculatorTest {
 		// Assert
 				
 		assertEquals(30,actual);	
-		
-		
+			
 		
 	}
 
