@@ -35,5 +35,6 @@ public class averageTest {
 				
 		assertEquals(18,actual);
 
+		
    }
 }

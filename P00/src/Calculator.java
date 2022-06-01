@@ -1,10 +1,14 @@
-
-public class Calculator
-{
-	public int sum(int n1,int n2)
-	{
-	return n1+n2;
+public class Calculator {
 	
-	
-}
+		public int divide(int a, int b) {
+			
+			if (b == 0) 
+			  {
+				   throw new IllegalArgumentException("Division by zero is not supported");
+			}
+		return a/b;
+		
+		
+		
+	}
 }
